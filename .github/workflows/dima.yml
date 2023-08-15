@@ -1,0 +1,25 @@
+# This is a basic workflow to help you get started with Actions
+
+name: gittest
+
+on:
+  push:
+    branches: 
+     - master
+jobs:
+  my_testing:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: print hello massage
+      run : echo "Hello"
+    
+
+  my_testing2:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: print hello massage
+      run : echo "Hello2"
+  
+          
